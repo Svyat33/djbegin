@@ -19,6 +19,6 @@ from django.urls import path
 from news.view import main_news
 
 urlpatterns = [
-    path("/", main_news),
+    path("", main_news),
     path('admin/', admin.site.urls),
 ]
